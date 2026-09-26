@@ -6,19 +6,28 @@
 
 ## 长什么样
 
-三个状态，宽度是渐进的。图小，点一下可以看大图。
+三个状态，宽度是渐进的。点标题就地展开原图，不会跳走。
 
-<p align="center">
-<a href="docs/screenshots/01-handle.png"><img src="docs/screenshots/01-handle.png" width="250" alt="收起状态"></a>
-<a href="docs/screenshots/02-strip.png"><img src="docs/screenshots/02-strip.png" width="250" alt="图标条"></a>
-<a href="docs/screenshots/03-expanded.png"><img src="docs/screenshots/03-expanded.png" width="250" alt="详情面板"></a>
-</p>
+<details open>
+<summary><b>收起状态（22px）</b>：默认就长这样，屏幕右缘一条半透明把手，基本不挡内容</summary>
 
-**收起状态（22px）**：默认就长这样，屏幕右缘一条半透明把手，基本不挡内容。
+![收起状态](docs/screenshots/01-handle.png)
 
-**图标条（48px）**：鼠标移到把手上，滑出一列网站图标。
+</details>
 
-**详情面板（300px）**：点图标条顶部的 `⟨` 展开，显示标题和网址，能搜索、编辑、拖拽排序。
+<details>
+<summary><b>图标条（48px）</b>：鼠标移到把手上，滑出一列网站图标</summary>
+
+![图标条](docs/screenshots/02-strip.png)
+
+</details>
+
+<details>
+<summary><b>详情面板（300px）</b>：点图标条顶部的 `⟨` 展开，显示标题和网址，能搜索、编辑、拖拽排序</summary>
+
+![详情面板](docs/screenshots/03-expanded.png)
+
+</details>
 
 鼠标移开 0.6 秒它会自己收回去。但有两个时候不收：正在搜索框里打字、正在拖拽排序。这两个时间点被收掉最烦。
 
@@ -26,7 +35,12 @@
 
 收藏网页，就是在页面上右键点一下：
 
-<a href="docs/screenshots/04-context-menu.png"><img src="docs/screenshots/04-context-menu.png" width="300" alt="右键菜单"></a>
+<details>
+<summary><b>右键菜单截图</b>（点开看）</summary>
+
+![右键菜单](docs/screenshots/04-context-menu.png)
+
+</details>
 
 其余操作：
 
