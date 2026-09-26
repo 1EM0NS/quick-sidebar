@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_title": "显示 / 隐藏侧边栏"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "自动收起的快捷侧边栏：右键收藏网页，悬停把手滑出图标条，展开查看详情，点击新标签页打开。数据随账号同步，换电脑可恢复。",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx5J+OhHkrb5k+Q1Ib4+KQ5JeQMK+zYn4Q9CL/TflAB1ZfUkZS3gw868NFfI5zEjysNjXnEd23YLj0GjQxDU6x144nIs4urGZuus2R5We/ZIbMrRMti5mHXCmu+VNuhnsZRwU0YBlc6NAZf6p6sq80ZOr0kKNXyxHn7paUz47P4CpGjFCxXwDp/tZQHssVGf5i9ZzDwf0342Wm5DzX7OWbXRfXg5ZbS/c1Hb5uoUq2jbcLo67+tjDKIXeQLNztgq/wlKDuQDixx9EpV5iwKP5z07U3zXOvTMmUEVQyptJGPr1LmWkQSn2RpMAfr/mF02BaM7XQtXH7rUSOiPj3aonYwIDAQAB",
+   "manifest_version": 3,
+   "name": "快捷侧边栏",
+   "permissions": [ "contextMenus", "storage", "activeTab" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.1.0"
+}
