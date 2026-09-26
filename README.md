@@ -6,17 +6,19 @@
 
 ## 长什么样
 
-收起状态，22px。默认就长这样，屏幕右缘一条半透明把手，基本不挡内容。
+三个状态，宽度是渐进的。图小，点一下可以看大图。
 
-![收起状态](docs/screenshots/01-handle.png)
+<p align="center">
+<a href="docs/screenshots/01-handle.png"><img src="docs/screenshots/01-handle.png" width="250" alt="收起状态"></a>
+<a href="docs/screenshots/02-strip.png"><img src="docs/screenshots/02-strip.png" width="250" alt="图标条"></a>
+<a href="docs/screenshots/03-expanded.png"><img src="docs/screenshots/03-expanded.png" width="250" alt="详情面板"></a>
+</p>
 
-鼠标移到把手上，滑出 48px 的图标条，一列网站图标。
+**收起状态（22px）**：默认就长这样，屏幕右缘一条半透明把手，基本不挡内容。
 
-![图标条](docs/screenshots/02-strip.png)
+**图标条（48px）**：鼠标移到把手上，滑出一列网站图标。
 
-点图标条顶部的 `⟨` 展开，是 300px 的详情面板，显示标题和网址，能搜索、编辑、拖拽排序。
-
-![详情面板](docs/screenshots/03-expanded.png)
+**详情面板（300px）**：点图标条顶部的 `⟨` 展开，显示标题和网址，能搜索、编辑、拖拽排序。
 
 鼠标移开 0.6 秒它会自己收回去。但有两个时候不收：正在搜索框里打字、正在拖拽排序。这两个时间点被收掉最烦。
 
@@ -24,7 +26,7 @@
 
 收藏网页，就是在页面上右键点一下：
 
-<img src="docs/screenshots/04-context-menu.png" width="320" alt="右键菜单">
+<a href="docs/screenshots/04-context-menu.png"><img src="docs/screenshots/04-context-menu.png" width="300" alt="右键菜单"></a>
 
 其余操作：
 
